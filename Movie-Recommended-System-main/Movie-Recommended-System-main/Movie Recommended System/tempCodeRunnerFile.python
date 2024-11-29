@@ -1,4 +1,7 @@
+
+//To deal with numerical data
 import numpy as np
+//To create DataFrame
 import pandas as pd
 import sklearn
 import matplotlib.pyplot as plt
@@ -98,3 +101,5 @@ movie_title = movie_titles[movie_id]
 print(f"Since you watched {movie_title}")
 for i in similar_ids:
 	print(movie_titles[i])
+
+
